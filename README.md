@@ -1,22 +1,48 @@
-# kaya
+# loopback-vue-boilerplate
 
-> Le meilleur CMS de l'univers
+A boilerplate for a Vue application using LoopBack
 
-## Build Setup
+### Get Started
+- **Clone this repository or use npm**
+```bash
+$ git clone https://github.com/cslinmiso/loopback-vue-boilerplate.git
+```
+```bash
+$ npm install loopback-vue-boilerplate
+```
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+- **Install dependencies specified in package.json**
+```bash
+$ npm install
+```
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
+- **Start the server (default port is set to 3000)**
+```bash
 $ npm start
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+### Scripts
+- **npm run build**: Bundles the application into `.build/`.
 
-## Backpack
+- **npm run dev**: Starts developer server, contains webpack hot module replacement.
 
-We use [backpack](https://github.com/palmerhq/backpack) to watch and build the application, so you can use the latest ES6 features (module syntax, async/await, etc.).
+- **npm run prod**: Starts production server, make sure you have already deployed the application.
+
+- **npm run clean**: Removes the bundled files.
+
+### Built-in example
+A simple 'Hello World' Vue.js application contains an example by Evan You (yyx990803) is included in this boilerplate. 
+You can find those files under `/client`.
+
+Hot reloading is only applied in development mode. In production mode, the code base is pre-compiled and placed under `.build/static`.
+
+### License
+
+[MIT](LICENSE)
+
+### Copyright
+
+Copyright (C) 2016 Trey Lin, released under the MIT License.
+
+### Reference
+[loopback-redux-react-boilerplate](https://github.com/tngan/loopback-redux-react-boilerplate)
